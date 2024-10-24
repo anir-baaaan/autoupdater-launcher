@@ -74,5 +74,15 @@
 
 ![image](./Assets/c8ebf879-b5d3-4c36-ba6f-4d546aa5f876.png)
 
+# Hosting
+You can host the files on and http hosting service like dropbox, google drive or even onedrive. You would need to convert the links to direct download links using some kind of online converters. 
+For example this is a direct download link for a dropbox file `https://www.dropbox.com/s/SOME_ID/Application_Zip?dl=1`
+
+Google Drive shows a pop-up if the file is more than 50mb which breaks the download http request. You can either use [Google APIs](https://bytesbin.com/skip-google-drive-virus-scan-warning-large-files/) to get rid of the whole problem altogether... Or you could even do a [workaround via code](https://stackoverflow.com/a/44402826)
+
+So the Remote Config variables would point to these variables... Here is an example (acknowledgement is basically subtitle.. I renamed it for my project)
+
+### Also the \_name variables should be equal the name for the Zip files
+![image](./Assets/59fab93f-c0f6-4470-bb5b-0a8e11462694.png)
 
 ### Step 22: ANDDDD you are done! Export the project to all required platforms and it 'should' work perfectly fine
