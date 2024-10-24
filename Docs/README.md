@@ -1,10 +1,4 @@
-## DEMO
-
-
-https://github.com/AXVIII3/unity-app-launcher/assets/76608488/2f47e7b8-bae1-44ae-a363-b53057507a41
-
-
-This video shows the loading of remote config variables and the auto-loading of background and logo images. This also shows the automatic setting up, downloading and checking of game files.
+# Auto Updater and Launcher made in Unity 
 
 #### Tested
 2021.3.20f1 version tested on Windows, Mac and Linux<br>
@@ -40,10 +34,7 @@ As discussed previously, this can be useful for auto-updating application files 
 3. Try not to keep any of the Remote Config links empty or broken... make sure there are no trailing white spaces too... I probably should have accounted for this in code and I might... but I haven't yet
 
 #### Documentation:
-Please read everything if you are doing this for the first time.<br>
-[Setup](./Setup.md)<br>
-[Hierarchy](Hierarchy.md)<br>
-[Files](./Files.md)<br>
+To setup with unity cloud you can follow the instructions in [Setup](./Setup.md)  
   
 Cheers,<br>
 Smile :)  
