@@ -7,14 +7,14 @@ Google Drive shows a pop-up if the file is more than 50mb which breaks the downl
 So the Remote Config variables would point to these variables... Here is an example (acknowledgement is basically subtitle.. I renamed it for my project)
 
 ### Also the \_name variables should be equal the name for the Zip files
-![image](https://github.com/AXVIII3/unity-app-launcher/assets/76608488/59fab93f-c0f6-4470-bb5b-0a8e11462694)
+![image](./Assets/59fab93f-c0f6-4470-bb5b-0a8e11462694.png)
 
 
 # File Structure
 The launcher detects its current directory and creates a `Data` folder on the same level as itself... The zip is downloaded and extracted inside this folder...<br>
-![image](https://github.com/AXVIII3/unity-app-launcher/assets/76608488/24175a3a-f980-453c-a2dc-7571b9bd0166)
+![image](./Assets/24175a3a-f980-453c-a2dc-7571b9bd0166.png)
 
 
 # Compression
 After compression, decompress the file and choose normal extraction (Not extract here or extract at 'X'). If the extracted file shows the game files directly under a folder with the Directory name then it would work fine. Though this can be edited in code if necessary.<br>
-![image](https://github.com/AXVIII3/unity-app-launcher/assets/76608488/5ddc770e-6a31-4b91-8b58-d77505eed5f4)
+![image](./Assets/5ddc770e-6a31-4b91-8b58-d77505eed5f4.png)
