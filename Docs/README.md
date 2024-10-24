@@ -8,7 +8,7 @@
 This is a simple launcher (installer and updater) made in Unity based on [Tom Weiland](https://www.youtube.com/@tomweiland)'s infamous [launcher tutorial](https://www.youtube.com/watch?v=JIjZQo03YdA) for which was originally a .NET WPF application and I converted into a Unity application.
 
 #### What is the purpose?
-I originally made this in March of 2023 in Unity 2021.3.20f1 as I was about to send a game I was working on to a few people for testing. The game was in the works and I needed a way for people to be able to play new versions of the game without needing to go to some online host and download the latest files. I didn't really use this anymore but felt like someone might. So I ported it to 2022.3.16f1 and currently am uploading this to GitHub after refactoring some stuff. I would actually use and recommend something like [Patch](https://patch.mhlab.tech/) for a production launcher as obviously.. it supports patching. However this launcher is fine for small applications which doesn't really require patching or high-end functionality of professional patchers.
+I originally made this in March of 2023 in Unity 2021.3.20f1 as I was about to send a game I was working on to a few people for testing. The game was in the works and I needed a way for people to be able to play new versions of the game without needing to go to some online host and download the latest files. Anyway this project is currently set in Unity 2022.3.10f1 when I last edited it. I would actually use and recommend something like [Patch](https://patch.mhlab.tech/) for a production launcher as obviously.. it supports patching. However this launcher is fine for small applications which doesn't really require patching or high-end functionality of professional patchers.
 
 #### Why use this?
 As discussed previously, this can be useful for auto-updating application files so that users always stay in the latest version of the application. I also used a Unity Cloud service called Remote Config so that you can remotely control various aspects of the launcher! Another big thing is that this is cross-platform. This was my biggest motivation for converting Tom Weiland's WPF launcher to a Unity app, so that I can distribute on multiple platforms Unity natively supports. I probably should have used something like [Electron](https://www.electronjs.org/) or Flutter to make the launcher but[](https://flutter.dev/)I already knew Unity and wasn't planning on keeping this launcher long term... so I didn't bother.
@@ -21,7 +21,6 @@ As discussed previously, this can be useful for auto-updating application files 
 * Can be used with any kind of application which builds to a native executable file (e.g. .exe for windows,  .86_64 for linux or .app for Mac) though supporting new executables shouldn't be very
   
 #### Cons:
-* Depends on Unity and Unity Products (Do I really need to elaborate?)
 * Its technically a game, made in a game engine and hence has many files bloating the final export while the original .NET WPF app was a single executable
 * Similar to above, using a game engine for a launcher is overkill and it uses more resources than a launcher should (though not very noticeable)
 * The code in one file... y-y-y-e-e-e-ah... my bad :)
